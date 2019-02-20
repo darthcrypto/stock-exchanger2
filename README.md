@@ -3,7 +3,18 @@ https://www.djamware.com/post/5bca67d780aca7466989441f/angular-7-tutorial-buildi
 
 
 #create a component (automatically adds components to app.module.ts)
-ng g component producs
+ng g component products
+
+
+###ARCHITECTURE###
+#api.service.ts is where the CRUD operations take place, connecting to the backend server
+
+
+#tutorial on Observables
+https://www.techiediaries.com/angular-rxjs-tutorial/
+
+
+
 
 
 
