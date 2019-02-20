@@ -17,7 +17,8 @@ https://www.techiediaries.com/angular-rxjs-tutorial/
 #add angular material to project 
 ng add @angular/material
 
-
+#tutorial on _id (field in MongoDb)
+https://www.vividcortex.com/blog/what-is-mongodbs-_id-field-and-how-to-use-it
 
 
 # StockExchanger
