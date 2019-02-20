@@ -14,8 +14,8 @@ ng g component products
 https://www.techiediaries.com/angular-rxjs-tutorial/
 
 
-
-
+#add angular material to project 
+ng add @angular/material
 
 
 
