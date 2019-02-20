@@ -2,7 +2,8 @@ tutorial used:
 https://www.djamware.com/post/5bca67d780aca7466989441f/angular-7-tutorial-building-crud-web-application
 
 
-
+#create a component (automatically adds components to app.module.ts)
+ng g component producs
 
 
 
