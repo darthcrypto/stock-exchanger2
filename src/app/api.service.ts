@@ -34,7 +34,7 @@ getProducts (): Observable<Product[]> {
     );
  }
 
-getProduct (id: number): Observable<Product> {
+getProduct(id: number): Observable<Product> {
   const url = `${apiUrl}/${id}`;
   return this.http.get<Product>(url).pipe(
     tap(_ => console.log(`fetched product id=${id}`)),

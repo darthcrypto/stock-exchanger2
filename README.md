@@ -1,6 +1,9 @@
 tutorial used:
 https://www.djamware.com/post/5bca67d780aca7466989441f/angular-7-tutorial-building-crud-web-application
 
+#find ip of running port Mac:
+lsof -nP -i4TCP:4200
+
 
 #create a component (automatically adds components to app.module.ts)
 ng g component products
@@ -20,6 +23,10 @@ ng add @angular/material
 #tutorial on _id (field in MongoDb)
 https://www.vividcortex.com/blog/what-is-mongodbs-_id-field-and-how-to-use-it
 
+
+#starting mongo daemon
+mongod -dbpath /tmp/stockdb
+mongod
 
 # StockExchanger
 
