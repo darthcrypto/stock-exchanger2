@@ -1,3 +1,13 @@
+tutorial used:
+https://www.djamware.com/post/5bca67d780aca7466989441f/angular-7-tutorial-building-crud-web-application
+
+
+
+
+
+
+
+
 # StockExchanger
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.0.
