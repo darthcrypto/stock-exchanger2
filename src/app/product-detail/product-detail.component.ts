@@ -11,7 +11,7 @@ import { Product } from '../product';
 })
 export class ProductDetailComponent implements OnInit {
 
-  product: Product = { _id: '', prod_name: '', prod_desc: '', prod_price: null, updated_at: null };
+  product: Product = { _id: null, prod_name: '', prod_desc: '', prod_price: null, updated_at: null };
   
   isLoadingResults = true;
 

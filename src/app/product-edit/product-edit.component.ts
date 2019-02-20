@@ -12,7 +12,7 @@ import { FormControl, FormGroupDirective, FormBuilder, FormGroup, NgForm, Valida
 export class ProductEditComponent implements OnInit {
 
   productForm: FormGroup;
-  _id:string='';
+  _id:number=null;
   prod_name:string='';
   prod_desc:string='';
   prod_price:number=null;
@@ -57,5 +57,4 @@ export class ProductEditComponent implements OnInit {
     productDetails() {
       this.router.navigate(['/product-details', this._id])
     }
-
-}
+  }
