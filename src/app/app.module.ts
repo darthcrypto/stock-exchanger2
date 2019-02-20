@@ -30,6 +30,13 @@ import {
     ProductDetailComponent,
     ProductAddComponent,
     ProductEditComponent,
+  ],
+  imports: [
+    BrowserModule,
+    FormsModule,
+    HttpClientModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
     MatInputModule,
     MatPaginatorModule,
     MatProgressSpinnerModule,
@@ -38,14 +45,8 @@ import {
     MatIconModule,
     MatButtonModule,
     MatCardModule,
-    MatFormFieldModule
-  ],
-  imports: [
-    BrowserModule,
-    FormsModule,
-    HttpClientModule,
-    AppRoutingModule,
-    BrowserAnimationsModule
+    MatFormFieldModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
